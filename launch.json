@@ -1,0 +1,23 @@
+{
+  "name": "Launch Chrome via localhost",
+  "type": "chrome",
+  "request": "launch",
+  "url": "http://localhost:8080",
+"webRoot": "${workspaceFolder}",
+"configurations": [
+{
+    "name": "Launch Chrome",
+    "request": "launch",
+    "type": "chrome",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+}
+]
+},
+{
+  "name": "Launch Chrome via file path",
+  "type": "chrome",
+  "request": "launch",
+  "url": "file:///C:/index.html",
+  "webRoot": "${workspaceFolder}"
+}
